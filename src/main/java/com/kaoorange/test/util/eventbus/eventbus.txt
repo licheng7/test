@@ -1,0 +1,5 @@
+1、创建一个配置类EventBusConfBean，这个类是为了生产AsyncEventBus实例，这个实例中接收唯一参数是个线程池，线程池大小决定了并发投递效率
+2、定义监听类EventBusListener，用于监听事件，被@Subscribe注解的方法可以用于接收事件，如果多个方法都被@Subscribe注解，就要匹配方法的接收参数类型了
+3、创建一个EventBusUtil，使用@Component注解托管给Spring,工具类核心实现两个方法，注册和发送。
+    注册：AsyncEventBus.register
+    发送：AsyncEventBus.post

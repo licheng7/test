@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:tns="http://orange.com/schema"
+        targetNamespace="http://orange.com/schema"
+        elementFormDefault="qualified">
+
+    <element name="orange">
+        <complexType>
+            <attribute name="param1" type="string"/>
+            <attribute name="param2" type="int"/>
+        </complexType>
+    </element>
+
+</schema>

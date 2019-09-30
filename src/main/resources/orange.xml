@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:kaoorange="http://orange.com/schema"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://orange.com/schema
+       http://orange.com/schema/orange.xsd">
+
+    <kaoorange:orange param1="炭烤大橙子" param2="17"/>
+
+</beans>

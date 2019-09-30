@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 配置数据源 -->
+    <bean id="orange_0" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close">
+        <property name="url" value="${orange_0.url}"/>
+        <property name="username" value="${orange_0.username}"/>
+        <property name="password" value="${orange_0.password}"/>
+        <!--druid配置优化可以放在这里-->
+    </bean>
+
+    <!-- 配置数据源 -->
+    <bean id="orange_1" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close">
+        <property name="url" value="${orange_1.url}"/>
+        <property name="username" value="${orange_1.username}"/>
+        <property name="password" value="${orange_1.password}"/>
+        <!--druid配置优化可以放在这里-->
+    </bean>
+
+    <!-- 配置数据源 -->
+    <bean id="orange_2" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close">
+        <property name="url" value="${orange_2.url}"/>
+        <property name="username" value="${orange_2.username}"/>
+        <property name="password" value="${orange_2.password}"/>
+        <!--druid配置优化可以放在这里-->
+    </bean>
+
+    <!-- 配置数据源 -->
+    <bean id="orange_3" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close">
+        <property name="url" value="${orange_3.url}"/>
+        <property name="username" value="${orange_3.username}"/>
+        <property name="password" value="${orange_3.password}"/>
+        <!--druid配置优化可以放在这里-->
+    </bean>
+
+</beans>
